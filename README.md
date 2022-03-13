@@ -1,4 +1,4 @@
-# blog
+# task tracker
 
 ## Project setup
 ```
@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Copyright
+Copyright(c) 2022 Vishal Ahirwar. All rights reserved.
