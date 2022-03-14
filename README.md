@@ -1,5 +1,6 @@
 # task tracker
-<image src="./src/assets/logo.png">
+<image src="./src/assets/vue.png">
+
 ## Project setup
 ```
 npm install
