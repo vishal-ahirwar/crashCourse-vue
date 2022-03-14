@@ -1,5 +1,5 @@
 # task tracker
-
+<image src="./src/assets/logo.png">
 ## Project setup
 ```
 npm install

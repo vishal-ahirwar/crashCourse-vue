@@ -3,9 +3,11 @@
 </template>
 
 <script>
+
 export default {
     name:'TaskComponent',
     props:{
+        // tasks:String,
         tasks:String,
         isCompleted:Boolean,
     }

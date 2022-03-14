@@ -15,6 +15,7 @@ export default {
         onClick()
         {
             alert("Would you like to add new task")
+            
         }
     }
 }

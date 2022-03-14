@@ -1,15 +1,11 @@
 <template>
   <div class="container">
     <header-component title="Task Tracker" />
-    <task-component tasks="2hours hv2 Work on miVA " isCompleted="false" />
-    <task-component tasks=" Practice on DSA " isCompleted="false" />
-    <task-component tasks="C++20 " isCompleted="false" />
-    <task-component tasks="C Advanced" isCompleted="false" />
-    <task-component tasks="Company Project" isCompleted="false" />
-    <task-component tasks="Python3 Django + Vue.js" isCompleted="false" />
-    <task-component tasks="C++ B2A" isCompleted="false" />
-
-    <h5>Copyright(c) 2022 \/|eon ENTERPRISES. All rights reserved india.</h5>
+    <task-component tasks="task -1" isCompleted="false" />
+    <task-component tasks='task -2'/>
+        <task-component tasks='task -3'/>
+            <task-component tasks='and so on ...'/>
+    <h5>Copyright(c) 2022 Vishal Ahirwar. All rights reserved india.</h5>
   </div>
 </template>
 
@@ -18,6 +14,7 @@
 // import HomeComponent from './components/Home.vue'
 import HeaderComponent from "./components/HeaderComponent.vue";
 import TaskComponent from "./components/TaskComponent.vue";
+
 export default {
   name: "App",
   components: {
@@ -25,6 +22,7 @@ export default {
     // HomeComponent
     HeaderComponent,
     TaskComponent,
+
   },
 };
 </script>
